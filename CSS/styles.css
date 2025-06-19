@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    border: none;
+    width: 100vh;
+    height: 90vh;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background: linear-gradient(0deg, #ffffff 40%, #f7f7f7 99%);
+    box-shadow: 0px 0px 17px 1px #000000;
+
+}
+
+.navbar {
+
+    padding: 2rem;
+}
+
+.navbar h1 {
+    margin: 1rem;
+    border-bottom: 1px solid #000;
+    font-size: 3.5rem;
+}
+
+.navbar p {
+    margin: -.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#send-item {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    margin-bottom: 1.2rem;
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+
+
+
+}
+
+#add {
+    padding: .5rem;
+    font-size: .9rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: .8rem;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 1px 8px 7px 0px #989898;
+    transition: .4s;
+}
+
+#add:hover {
+    background-color: #004201;
+    box-shadow: 1px 8px 7px 0px #02ab04;
+    color: #fff;
+}
+
+#clear {
+    padding: .5rem;
+    font-size: .9rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: .8rem;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 1px 8px 7px 0px #989898;
+    transition: .4s;
+}
+
+#clear:hover {
+    background-color: #420000;
+    box-shadow: 1px 8px 7px 0px #e10000;
+    color: #fff;
+}
+
+#list li {
+    position: relative;
+    left: -2rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.riscado {
+    text-decoration: line-through;
+    color: gray;
+}
